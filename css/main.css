@@ -22,13 +22,14 @@
 	background-color: rgba(52, 152, 219,0.1);
 }
 /*..........*/
-.sombreado {
-	border-radius: 100%;
-	box-shadow: inset 0px 1px 0px #9e8d84, 0px 3px 0px 0px #8E807E, 0px 5px 3px #999;
-	width: 120px;
-	height: 120px;
-	padding: 8%;
-}
-h3 {
+
+h3, h2 {
 	margin-bottom: 5%;
+}
+.separador {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+iframe {
+	height: 500px;
 }
