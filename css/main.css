@@ -1,25 +1,26 @@
 /*backgrounds*/
 .bg-header {
-	background-image: url(".../img/large.jpg");
+	background-image: url("../img/large.jpg");
 	width: 100%;
-	height: 500px;
+	height: 700px;
 }
-.bg-user {
-	background-image: url(".../img/logo-2.jpg");
+.bg-logo {
+	background-image: url("../img/logo-2.jpg");
 	width: 100%;
+	height: 100px;
 }
 .bg-loquiero {
-	background-image: url(".../img/sec-2.jpg");
+	background-image: url("../img/sec-2.jpg");
 	width: 100%;
 	height: 500px;	
 }
 .bg-porque {
-	background-image: url(".../img/banner.jpg");
+	background-image: url("../img/banner.jpg");
 	width: 100%;
 	height: 500px;			
 }
 .bg-azul-agua {
-	background-color: rgba(52, 152, 219,0.1);
+	background-color: rgba(52, 152, 219,0.7);
 }
 /*..........*/
 
@@ -32,4 +33,17 @@ h3, h2 {
 }
 iframe {
 	height: 500px;
+}
+.navbar-brand img{
+	height: 35px;
+}
+.inline {
+	display: inline !important;
+}
+.logo {
+	width: 65%;
+	
+}
+nav {
+	background-color: rgba(255,255,255,.3);
 }
