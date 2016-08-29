@@ -32,8 +32,8 @@
 .pd-t-7 {
 	padding-top: 7%;
 }
-.pd-t-10 {
-	padding-top: 10%;
+.pd-t-15 {
+	padding-top: 15%;
 }
 .pd-lr-2 {
 	padding-left: 2%;
@@ -47,7 +47,10 @@
 	padding: 0% !important;
 }
 .mg-0{
-	margin: 0;
+	margin: 0 !important;
+}
+.mg-3 {
+	margin: 3%;
 }
 .mg-b-0 {
 	margin-bottom: 0px;
@@ -58,8 +61,20 @@
 .mg-b-3 {
 	margin-bottom: 3%;
 }
+.mg-b-5 {
+	margin-bottom: 5%;
+}
+.mg-b-7 {
+	margin-bottom: 7%;
+}
 .mg-t-3 {
 	margin-top: 3%;
+}
+.mg-t-5 {
+	margin-top: 5%;
+}
+.mg-l-5 {
+	margin-left: 5%;
 }
 /*FONDOS.............................*/
 .bg-img-block{
@@ -113,6 +128,9 @@
 .subrayado {
 	text-decoration: underline;
 }
+.t-rojo {
+	color: red;
+}
 /*width....................................*/
 .w-100 {
 	width: 100%;
@@ -125,7 +143,7 @@
 }
 /*otros......................................*/
 .inl {
-	display: inline !important;
+	display: inline-block !important;
 }
 .superborde {
 	border-bottom: solid gray 7px;
